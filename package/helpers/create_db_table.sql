@@ -9,7 +9,7 @@ CREATE DATABASE homebase
     IS_TEMPLATE = False;
 
 CREATE TABLE IF NOT EXISTS apartments_for_rent (
-    id text,
+	id text,
 	category text,
 	title text,
 	body text,
